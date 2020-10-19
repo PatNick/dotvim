@@ -49,6 +49,8 @@ vnoremap . :norm.<CR>
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+let g:airline_theme='simple'
+
 "Spaces and tabs
 set expandtab
 set shiftwidth=4
